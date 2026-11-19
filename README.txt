@@ -1,3 +1,27 @@
-IACNUR website update
-Upload all files in this folder to the root of the existing GitHub repository and replace files with the same names. Keep all image files in the root alongside index.html. GitHub Pages is configured to deploy from main / (root).
-Songs: حواس پرت, دل, دوس دارمت. Telegram links are retained as provided.
+وب‌سایت رسمی IACNUR
+=====================
+
+نام هنری: IACNUR
+نام دامنه موردنظر: iacnur.com
+اینستاگرام: https://www.instagram.com/iacnur/
+آثار درج‌شده: حواس پرت، دل، دوس دارمت
+
+انتشار رایگان با GitHub Pages (بدون Netlify):
+1. در https://github.com یک حساب بسازید و یک مخزن با نام دلخواه ایجاد کنید.
+2. همه فایل‌های این پوشه را در مخزن بارگذاری کنید.
+3. از Settings > Pages، گزینه Deploy from a branch را انتخاب کنید؛ Branch: main و Folder: /(root) و Save.
+4. تا این مرحله، سایت از نشانی رایگان USERNAME.github.io/REPOSITORY در دسترس است.
+
+اتصال دامنه iacnur.com:
+- دامنه .com معمولاً رایگان نیست و باید جداگانه از یک ثبت‌کننده دامنه خریداری شود؛ هاست GitHub Pages رایگان است.
+- در Settings > Pages بخش Custom domain، مقدار iacnur.com را وارد و ذخیره کنید.
+- در پنل ثبت‌کننده دامنه، DNS را مطابق راهنمای جاری GitHub Pages تنظیم کنید (معمولاً رکوردهای A برای دامنه اصلی و CNAME برای www).
+- پس از انتشار DNS، گزینه Enforce HTTPS را فعال کنید.
+- فایل CNAME در این بسته از قبل شامل iacnur.com است.
+
+کاور هر سه آهنگ در همین پوشه قرار دارد؛ کاور «دوس دارمت» دقیقاً همان تصویر ارسالی شما (photo-output) است و با نام doos-daramet-cover.jpeg به صفحه متصل شده است.
+
+نکته‌های تکمیل محتوا:
+- لینک شنیدن سه آهنگ به لینک‌های تلگرام ارائه‌شده متصل شده‌اند؛ برای پخش مستقیم و دانلود بدون تلگرام باید فایل صوتی روی هاست عمومی قرار بگیرد.
+- برای یوتیوب، ایمیل کاری و تصاویر/کاورهای اصلی، لینک و فایل واقعی را اضافه کنید.
+- کاورهای فعلی صرفاً طرح گرافیکی موقت‌اند و به‌جای کاور رسمی استفاده نشده‌اند.
